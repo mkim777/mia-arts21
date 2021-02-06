@@ -1,0 +1,39 @@
+body {
+  background-color: lavender;
+}
+
+h1 {
+  color: blue;
+}
+
+.question-container {
+	color: blue;
+	background: beige;
+	border: 1px solid blue;
+	margin: 10px;
+	padding: 15px;
+	font-family: monospace;
+	font-size: 24px;
+}
+
+.question {
+	font-family: Helvetica;
+}
+
+.answer {
+	font-family: Garamond;
+	font-size: 40px;
+}
+
+.embed {
+	height: 500px;
+	border: 3px solid blue;
+}
+
+.speaker1 {
+	color: purple;
+}
+
+.speaker2 {
+	color: #FF0000;
+}
