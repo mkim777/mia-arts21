@@ -1,0 +1,184 @@
+body {
+	font-family: 'Mulish', sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	line-height: 1.4;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: line-through;
+}
+
+.link {
+	text-align: right;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.header {
+	margin: 60px auto 5px auto;
+	letter-spacing: 6px;
+	font-size: 25px;
+	font-weight: 700;
+}
+
+.byline {
+	margin: 0 auto 45px auto;
+}
+
+.intro {
+	display: flex;
+	flex-direction: row;
+	width: 75%;
+	margin: auto;
+}
+
+.intro-text {
+	margin: 0px auto auto 20px;
+}
+
+.intro-image {
+	width: 31.5%;
+	margin: 5px 20px auto auto;
+}
+
+.horizontal-line {
+	background-color: black;
+	height: 1px;
+	margin-top: 40px;
+}
+
+.signs-classifications {
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+}
+
+.vertical-line {
+	width: 1px;
+	background-color: black;
+}
+
+.signs {
+	padding: 40px 40px 40px 0px;
+}
+
+.classifications {
+	padding: 40px 0px 40px 40px;
+}
+
+.signs-header {
+	font-weight: 700;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+}
+
+.classifications-header {
+	font-weight: 700;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+}
+
+.horizontal-line2 {
+	background-color: black;
+	height: 1px;
+	margin-bottom: 40px;
+}
+
+.cause {
+	width: 75%;
+	margin: auto;
+}
+
+.cause-header {
+	font-weight: 700;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+	margin: 0px auto 10px auto;
+	text-align: center;
+}
+
+.treatment-treatment-sub {
+	display: flex;
+	flex-direction: row;
+}
+
+.treatment {
+	width: 70%;
+}
+
+.treatment-sub {
+	margin: 40px 0px 40px 0px;
+	width: 50%;
+}
+
+.treatment-header {
+	font-weight: 700;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	margin-right: 40px;
+	letter-spacing: 1px;
+}
+
+.treatment-text {
+	margin-bottom: 40px;
+	margin-right: 40px;
+}
+
+.treatment-subhead {
+	font-weight: 700;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+	margin-left: 40px;
+}
+
+.treatment-subhead-text {
+	margin-left: 40px;
+}
+
+.horizontal-line3 {
+	background-color: black;
+	height: 1px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.epidemiology-header{
+	font-weight: 700;
+	margin-bottom: 10px;
+	margin-left: 40px;
+	letter-spacing: 1px;
+}
+
+.epidemiology-text {
+	margin-left: 40px;
+}
+
+.etymology-header {
+	font-weight: 700;
+	margin-bottom: 10px;
+	margin-left: 40px;
+	letter-spacing: 1px;
+}
+
+.etymology-text {
+	margin-left: 40px;
+}
+
+.etymology-image {
+	width: 93%;
+	margin-right: 40px;
+}

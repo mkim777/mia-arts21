@@ -1,0 +1,189 @@
+body {
+	color: #DDDDDD;
+	background-color: black;
+	font-family: 'Vollkorn', serif;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 1.5;
+}
+
+a {
+	color: #717171;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: line-through;
+}
+
+.link {
+	text-align: right;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+}
+
+.wrapper1 {
+	width: 89%;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.header {
+	font-size: 200px;
+	letter-spacing: 5px;
+	font-weight: 400;
+	margin-top: 590px;
+	color: white;
+}
+
+.byline {
+	font-size: 30px;
+	margin-top: 470px;
+	margin-bottom: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	color: #717171;
+}
+
+.intro-text {
+	width: 60%;
+	margin: auto auto 1300px auto;
+}
+
+.intro-image {
+	width: 100%;
+	margin-bottom: 1300px;
+}
+
+.signs {
+	margin: auto;
+	width: 75%;
+}
+
+.signs-header {
+	font-size: 150px;
+	line-height: 1;
+	color: white;
+	letter-spacing: 5px;
+	margin-bottom: 80px;
+}
+
+.signs-text {
+	text-align: right;
+	width: 65%;
+	margin-left: 35%;
+	margin-bottom: 1000px;
+}
+
+.classifications-header {
+	font-size: 188px;
+	letter-spacing: 5px;
+	color: white;
+}
+
+.classifications-text {
+	width: 60%;
+	margin: 30px auto 900px auto;
+}
+
+.cause {
+	width: 70%;
+	margin: auto;
+}
+
+.cause-header {
+	font-size: 120px;
+	color: white;
+	text-align: right;
+	margin-bottom: 40px;
+	letter-spacing: 2px;
+}
+
+.cause-text {
+	margin-bottom: 1000px;
+}
+
+.treatment {
+	width: 50%;
+	margin: auto;
+}
+
+.treatment-header {
+	font-size: 120px;
+	color: white;
+	text-align: center;
+	margin-bottom: 40px;
+	letter-spacing: 2px;
+}
+
+.list {
+	text-align: center;
+	line-height: 2.5;
+	color: white;
+	font-size: 35px;
+	margin-top: 40px;
+	margin-bottom: 1400px;
+}
+
+.etymology-image{
+	width: 100%;
+	margin-bottom: 1300px;
+}
+
+.treatment-sub {
+	width: 70%;
+	margin-left: 80px;
+}
+
+.treatment-subhead {
+	font-size: 120px;
+	color: white;
+	letter-spacing: 2px;
+	line-height: 1;
+	margin-bottom: 40px;
+}
+
+.treatment-subhead-text {
+	margin-bottom: 800px;
+}
+
+.epidemiology {
+	display: flex;
+	flex-direction: row;
+	width: 90%;
+	margin: auto;
+}
+
+.epidemiology-wrapper {
+	width: 50%;
+	padding-right: 10px;
+}
+
+.etymology-wrapper {
+	width: 50%;
+	padding-left: 10px;
+}
+
+.epidemiology-header {
+	font-size: 60px;
+	color: white;
+	letter-spacing: 2px;
+	line-height: 1;
+	margin-bottom: 40px;
+}
+
+.etymology-header {
+	font-size: 60px;
+	color: white;
+	letter-spacing: 2px;
+	line-height: 1;
+	margin-bottom: 40px;
+	text-align: right;
+}
+
+.etymology-text {
+	text-align: right;
+	margin-bottom: 300px;
+}
