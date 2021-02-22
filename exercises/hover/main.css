@@ -1,0 +1,123 @@
+body {
+	background-color: #FFEEB3;
+	font-family: 'Varela Round', sans-serif;
+	color: #000B9B;
+	font-size: 18px;
+}
+
+.header {
+	display: flex;
+	font-size: 48px;
+	margin-top: 18%;
+	justify-content: center;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 60px;
+}
+
+.very-sleepy {
+	padding-left: 50px;
+}
+
+.slightly-sleepy {
+	padding-left: 50px;
+}
+
+.awake {
+	padding-left: 50px;
+}
+
+.hover-bg {
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	transition: .5s;
+	pointer-events: none;
+}
+
+.very-sleepy-text {
+	position: fixed;
+	margin: 5% auto;
+	font-size: 24px;
+	color: white;
+	opacity: 0;
+}
+
+.slightly-sleepy-text {
+	position: fixed;
+	margin: 5% auto;
+	font-size: 24px;
+	color: white;
+	opacity: 0;
+}
+
+.awake-text {
+	position: fixed;
+	margin: 5% auto;
+	font-size: 24px;
+	color: #000B9B;
+	opacity: 0;
+}
+
+.very-sleepy1:hover ~ .hover-bg {
+	background-color: #4C54BF;
+}
+
+.very-sleepy1:hover ~ .very-sleepy-text {
+	opacity: 1;
+	transition: .5s;
+}
+
+.very-sleepy1:hover {
+	color: white;
+	transition: .5s;
+}
+
+.very-sleepy:hover ~ .hover-bg {
+	background-color: #4C54BF;
+}
+
+.very-sleepy:hover ~ .very-sleepy-text {
+	opacity: 1;
+	transition: .5s;
+}
+
+.very-sleepy:hover {
+	color: white;
+	transition: .5s;
+}
+
+.slightly-sleepy:hover ~ .hover-bg {
+	background-color: #8D93E0;
+}
+
+.slightly-sleepy:hover ~ .slightly-sleepy-text {
+	opacity: 1;
+	transition: .5s;
+}
+
+.slightly-sleepy:hover {
+	color: white;
+	transition: ,5s;
+}
+
+.awake:hover ~ .hover-bg {
+	background-color: #D2D4F5;
+}
+
+.awake:hover ~ .awake-text {
+	opacity: 1;
+	transition: .5s;
+}
+
+.awake:hover {
+	color: white;
+	transition: .5s;
+}
