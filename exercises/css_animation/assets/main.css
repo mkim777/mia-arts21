@@ -1,0 +1,119 @@
+body {
+	background-color: #FFF3C2;
+	height: 900px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	min-height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+.left-container {
+	display: flex;
+	position: relative;
+	height: 740px;
+	width: 15%;
+	align-items: flex-end;
+	justify-content: flex-start;
+	padding: 80px;
+}
+
+.middle-container {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	align-items: center;
+	height: 900px;
+	width: 60%;
+}
+
+.right-container {
+	display: flex;
+	position: relative;
+	height: 740px;
+	width: 20%;
+	align-items: flex-start;
+	justify-content: flex-start;
+	padding: 80px 80px 80px 0px;
+}
+
+.leftHexagon {
+	position: absolute;
+	width: 80%;
+	animation: spin 40s linear infinite;
+}
+
+.leftHexagon2 {
+	position: absolute;
+	width: 80%;
+	animation: spinReverse 100s linear infinite;
+}
+
+.rightHexagon {
+	position: absolute;
+	width: 80%;
+	animation: spin 40s linear infinite;
+}
+
+.rightHexagon2 {
+	position: absolute;
+	width: 80%;
+	animation: spinReverse 100s linear infinite;
+}
+
+.octogon {
+	position: relative;
+	max-width: 85%;
+	animation: spin 40s linear infinite;
+}
+
+.hexagon {
+	position: absolute;
+	max-width: 85%;
+	animation: spinReverse 40s linear infinite;
+}
+
+.octogon2 {
+	position: absolute;
+	max-width: 85%;
+	animation: spinReverse 100s linear infinite;
+}
+
+.hexagon2 {
+	position: absolute;
+	max-width: 85%;
+	animation: spin 100s linear infinite;
+}
+
+.octogon3 {
+	position: absolute;
+	max-width: 85%;
+	animation: spin 160s linear infinite;
+}
+
+.hexagon3 {
+	position: absolute;
+	max-width: 85%;
+	animation: spinReverse 160s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes spinReverse {
+	0% {
+		transform: rotate(360deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
