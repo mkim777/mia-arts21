@@ -1,0 +1,74 @@
+body {
+	background: #00052b;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+	width: 40%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.owl {
+	width: 100%;
+	margin: auto;
+	margin-top: 200px;
+	opacity: 0;
+}
+
+.button {
+	margin-bottom: 20px;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: transparent;
+	border: solid #e2b534 2px;
+	color: #e2b534;
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding: 7px;
+}
+
+.button:hover {
+	background-color: #e2b534;
+	color: white;
+	cursor: pointer;
+}
+
+.switch {
+	margin-bottom: 30px;
+	font-family: 'Ubuntu', sans-serif;
+	background-color: transparent;
+	border: solid #e2b534 2px;
+	color: #e2b534;
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding: 7px;
+}
+
+.switch:hover {
+	background-color: #e2b534;
+	color: white;
+	cursor: pointer;
+}
+
+.hoos-there {
+	color: #e2b534;
+	position: absolute;
+	font-size: 20px;
+	margin-top: 50px;
+	opacity: 0;
+}
+
+.no-one {
+	color: #e2b534;
+	position: absolute;
+	margin-top: 50%;
+	font-size: 20px;
+	opacity: 0;
+}
