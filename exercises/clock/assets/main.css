@@ -1,0 +1,36 @@
+body {
+	background-color: #03071E;
+}
+
+.hour {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #D00000;
+	width: 400px;
+	height: 400px;
+	border-radius: 1000px;
+}
+
+.minute {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #F65E00;
+	width: 40%;
+	height: 40%;
+	border-radius: 100%;
+}
+
+.second {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #FFBA08;
+	width: 40%;
+	height: 40%;
+	border-radius: 100%;
+}
