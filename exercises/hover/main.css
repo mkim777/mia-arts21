@@ -105,7 +105,7 @@ body {
 
 .slightly-sleepy:hover {
 	color: white;
-	transition: ,5s;
+	transition: .5s;
 }
 
 .awake:hover ~ .hover-bg {
